@@ -193,16 +193,15 @@ img.saving-in-progress {
 }
 .github-link {
     width:210px;
-    margin:-70px 30px 0 30px;
+    margin:0px 0px 0 30px;
     border:1px solid darkcyan;
     border-radius:5px;
     padding:8px 8px;
-    display:inline;
+    float:right;
     font-size:14pt;
     font-weight:bold;
     color:darkcyan;
     background:#dfefef;
     text-align:center;
     text-decoration:none;
-
 }
