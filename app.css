@@ -197,7 +197,7 @@ img.saving-in-progress {
     border:1px solid darkcyan;
     border-radius:5px;
     padding:8px 8px;
-    display:inline-block;
+    display:inline;
     font-size:14pt;
     font-weight:bold;
     color:darkcyan;
