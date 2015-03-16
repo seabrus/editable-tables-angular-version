@@ -193,7 +193,7 @@ img.saving-in-progress {
 }
 .github-link {
     width:210px;
-    margin:0px 0px 0 30px;
+    margin:0px 20px 0 0px;
     border:1px solid darkcyan;
     border-radius:5px;
     padding:8px 8px;
