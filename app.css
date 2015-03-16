@@ -1,0 +1,193 @@
+/*
+ * Edi-Table
+ * Angular-based version
+ * v. 0.1.0
+ */
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    width:900px;
+    margin:50px 0 30px 0;
+    border-bottom:solid 1px #ddd;
+    font-size:22pt;
+    font-weight:bold;
+    color:darkcyan;
+}
+
+.parameters {
+    margin:0 0 20px 0;
+    font-family:Arial;
+    font-size:18pt;
+}
+input.param-input {
+    width:60px;
+    border: solid 2px darkcyan;
+    border-radius:5px;
+    padding:0 5px;
+    font-size:14pt;
+    background:cornsilk;
+    text-align:center;
+}
+.no-sorting {
+    text-decoration:none;
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.table td, th {
+    margin:0;
+    border: solid 2px darkcyan;
+    padding: 15px;
+    font-family:Arial;
+    font-size:18pt;
+    text-align:center;
+}
+.table th {
+    background: #eeeeee;
+}
+.table th a {
+    color:darkcyan;
+}
+
+.table td input {
+    width:150px;
+    margin:0;
+    border: dotted 1px #000099;
+    padding:0 3px;
+    background:cornsilk;
+    font-family:Arial;
+    font-size:18pt;
+    text-align:center;
+}
+.table td input[disabled] {
+    width:150px;
+    margin:0;
+    border:none 0px white;
+    padding:0 0px;
+    background:white;
+    color:black;
+    font-family:Arial;
+    font-size:18pt;
+    text-align:center;
+}
+.table td input[readonly] {
+    width:150px;
+    margin:0;
+    border:none 0px white;
+    padding:0 0px;
+    background:white;
+    color:black;
+    font-family:Arial;
+    font-size:18pt;
+    text-align:center;
+}
+
+td.not-editable {
+    background:#f3f3f3;
+}
+
+td.add-new-row {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+td.add-new-row img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+td.delete-row {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+td.delete-row img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+td.center-row {
+	text-align:center;
+    cursor: pointer;
+}
+td.center-row img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.load-data {
+    cursor:pointer;
+    margin:0 0 0 3px;
+    border:1px solid darkcyan;
+    border-radius:5px;
+    padding: 4px 10px;
+    font-size:1em;
+    font-weight:normal;
+    text-decoration:none;
+    color:darkcyan;
+    background:#fff;
+}
+.save-data {
+    cursor:pointer;
+    margin:0 0 0 227px;
+    border:1px solid darkcyan;
+    border-radius:5px;
+    padding: 4px 10px;
+    font-size:1em;
+    font-weight:normal;
+    text-decoration:none;
+    color:#fff;
+    background:darkcyan;
+}
+.savingSuccess { 
+	border:solid 2px #7CFC00;
+}
+.savingError { 
+	border:solid 3px #FF0000;
+}
+
+img.saving-in-progress {
+    margin:0 0 -6px 20px;
+    width: 36px;
+    height: 36px;
+    display:none;
+}
+
+/* Color names:  http://www.w3schools.com/cssref/css_colornames.asp  */
+/* Loading GIF generator: http://www.ajaxload.info */
+
+.dblclk {
+    width:900px;
+    margin:20px 0 7px 0;
+    border:solid 1px darkcyan;
+    padding:5px 0 5px 15px;
+    overflow: hidden;
+    font-size:1.7em;
+    font-weight:normal;
+    color:darkcyan;
+    background:#fff; // #dfefef;
+}
+.small {
+    margin:0px 0 20px 0;
+    padding:5px 0 5px 15px;
+    border:2px solid silver;
+    font-size:1.25em;
+    font-weight:normal;
+    font-family:Arial,Verdana;
+    color:black;
+    background:cornsilk;
+}
+.small ul {
+    margin:3px 0 0px 0;
+}
