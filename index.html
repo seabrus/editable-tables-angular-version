@@ -22,8 +22,8 @@
     </p>
     <div class="dblclk small">Hot keys:
 	    <ul>
-			<li><em>DblClick</em> &mdash; Start editing of a cell</li>
-			<li><em>Enter</em> &mdash; Start / cancel the editing mode in the current cell</li>
+			<li><em>DblClick</em> (within a cell) &mdash; Start editing the cell content</li>
+			<li><em>Enter</em> &mdash; Start / stop editing of the current cell content</li>
 			<li><em>Tab, Shift-Tab</em> &mdash; Move through a table</li>
 			<li><em>Esc</em> or <em>Click</em> (out of an active cell) &mdash; Stop editing</li>
 	    </ul>
@@ -40,7 +40,7 @@
         </label>
         <span style="margin-left:20px;">Cancel sorting: <a href="" class="no-sorting" ng-click="ctrl.sortBy='' ">&#10005;</a></span>
         <span><a href="" class="save-data" ng-click="ctrl.saveData()" ng-class="ctrl.savingClass()" title="Result of saving: {{ctrl.savingResult}}">Save</a></span>
-        <span><a href="" class="load-data" ng-click="ctrl.loadData()" title="Testing operation">Load</a></span>
+        <span><a href="" class="load-data" ng-click="ctrl.loadData()" title="This is used for testing">Load</a></span>
     </div>
 
     <table class="table">
