@@ -171,6 +171,7 @@ img.saving-in-progress {
     width:900px;
     margin:20px 0 7px 0;
     border:solid 1px darkcyan;
+    border-raduis:5px;
     padding:5px 0 5px 15px;
     overflow: hidden;
     font-size:1.7em;
